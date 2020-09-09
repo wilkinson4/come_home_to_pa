@@ -2,9 +2,9 @@
 'use strict';
 
 
-var Link = { };
+var Link = {};
 
-var StaticQuery = { };
+var StaticQuery = {};
 
 exports.Link = Link;
 exports.StaticQuery = StaticQuery;
