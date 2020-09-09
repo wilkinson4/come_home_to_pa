@@ -51,5 +51,3 @@ This starter for Gatsby is inspired by the default starter blog. Except this one
 
 - Gatsby v2
 - BuckleScript platform v4
-- [bs-css](https://github.com/SentiaAnalytics/bs-css) (based on [emotion](https://emotion.sh))
-- [bs-date-fns](https://github.com/SllyQ/bs-date-fns)
