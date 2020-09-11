@@ -1,0 +1,32 @@
+{
+  "name": "come_home_to_pa",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "npm run server",
+    "build": "bsb -make-world",
+    "bs:dev": "bsb -make-world -w -ws _ ",
+    "clean": "bsb -clean-world",
+    "server": "moduleserve ./ --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jsiebern/bs-material-ui": "^2.0.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.2.0",
+    "moduleserve": "git://github.com/marijnh/moduleserve.git#7db414e7ea20eb4213e4f98055bfaecc8886e756"
+  }
+}
