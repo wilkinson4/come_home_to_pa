@@ -1,5 +1,6 @@
-import { Button, createStyles, makeStyles, Theme, Typography } from '@material-ui/core';
 import React from 'react';
+import { Button, Theme, Typography, createStyles, makeStyles } from '@material-ui/core';
+
 import blossoms from '../img/blossoms.jpg';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({

@@ -1,11 +1,13 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { CssBaseline } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core/styles';
+
 import AppBar from './AppBar';
 import AppRouter from './AppRouter'
 import theme from './theme';
-import { ThemeProvider } from '@material-ui/core/styles';
-import { CssBaseline } from '@material-ui/core';
 
 ReactDOM.render(
   <React.StrictMode>
