@@ -1,14 +1,15 @@
 import React from 'react';
 import {
     AppBar,
-    Toolbar,
     Button,
-    Link,
     Container,
+    Link,
+    Theme,
+    Toolbar,
     createStyles,
-    makeStyles,
-    Theme
+    makeStyles
 } from "@material-ui/core";
+
 import BerkshireLogo from "./svg/berkshireLogo.svg"
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
