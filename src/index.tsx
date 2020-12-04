@@ -2,8 +2,8 @@ import './index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CssBaseline } from '@material-ui/core';
-import { ThemeProvider } from '@material-ui/core/styles';
+import {CssBaseline} from '@material-ui/core';
+import {ThemeProvider} from '@material-ui/core/styles';
 
 import AppBar from './AppBar';
 import AppRouter from './AppRouter'
