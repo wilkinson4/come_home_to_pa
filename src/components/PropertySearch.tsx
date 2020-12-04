@@ -27,6 +27,7 @@ export default () => {
         Start Your Property Search
       </Typography>
       <div className={classes.inputGroup}>
+        {/* TODO create one autocomplete for city/zip codes */}
         <TextField id='city-input' label='Enter a city' />
         <Typography>or</Typography>
         <TextField id='zip-code-input' label='Enter a zip code' />
